@@ -6,7 +6,7 @@ order: 5
 
 <iframe src="https://docs.google.com/viewer?url=https://github.com/Black-Kamous/black-kamous.github.io/raw/main/_tabs/cv.pdf&embedded=true" style="width:100%; height:100%;" frameborder="0"></iframe>
 
-<div style="width: 100%; height: 600px;>{% pdf "/assets/pdf/xxx.pdf" %}</div>
+<div style="width: 100%; height: 600px;>{% pdf "/_tabs/cv.pdf" %}</div>
 
 <!--
 <div style="width: 100%; height: 600px;">
