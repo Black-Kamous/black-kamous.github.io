@@ -4,16 +4,19 @@ icon: fas fa-archive
 order: 5
 ---
 
-<iframe src="https://docs.google.com/viewer?url=https://github.com/Black-Kamous/black-kamous.github.io/raw/main/_tabs/cv.pdf&embedded=true" style="width:100%; height:600px;" frameborder="0"></iframe>
+<!-- <iframe src="https://docs.google.com/viewer?url=https://github.com/Black-Kamous/black-kamous.github.io/raw/main/_tabs/cv.pdf&embedded=true" style="width:100%; height:600px;" frameborder="0"></iframe> -->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.6.82/pdf.min.mjs"></script>
 
 <div style="width: 100%; height: 600px;">
 <canvas id="pdf-canvas" style="border: 1px solid;"></canvas>
 </div>
 
-<script>
+<script type="module">
 var url = 'https://github.com/Black-Kamous/black-kamous.github.io/raw/main/_tabs/cv.pdf';
+
+import pdfjsDist from 'https://cdn.jsdelivr.net/npm/pdfjs-dist@4.6.82/+esm'
+pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdn.jsdelivr.net/npm/pdfjs-dist@4.6.82/build/pdf.worker.mjs'
+
 
 // 使用pdf.js渲染和显示PDF
 pdfjsLib.getDocument(url).promise.then(function(pdfDoc) {
