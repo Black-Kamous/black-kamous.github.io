@@ -4,9 +4,10 @@ icon: fas fa-archive
 order: 5
 ---
 
-<!-- <iframe src="https://docs.google.com/viewer?url=https://github.com/Black-Kamous/black-kamous.github.io/raw/main/_tabs/cv.pdf&embedded=true" style="width:100%; height:600px;" frameborder="0"></iframe> -->
+<iframe src="https://docs.google.com/viewer?url=https://github.com/Black-Kamous/black-kamous.github.io/raw/main/_tabs/cv.pdf&embedded=true" style="width:100%; height:100%;" frameborder="0"></iframe>
 
 
+<!--
 <div style="width: 100%; height: 600px;">
 <canvas id="pdf-canvas" style="border: 1px solid;"></canvas>
 </div>
@@ -34,4 +35,4 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc) {
  });
 });
 </script>
-
+-->
