@@ -1,3 +1,11 @@
+---
+title: tagged union本质探究
+date: 2024-09-13
+categories: [Abstract Algebra, Type Theory]
+tags: [sum type, tagged union]     # TAG names should always be lowercase
+description: 浅析sum type和tagged union的本质及其关系
+---
+
 ## tagged union本质探究
 
 ### sum type

@@ -1,3 +1,12 @@
+---
+title: monad学习：list是一个monad吗
+date: 2024-09-12
+categories: [Abstract Algebra, Group Theory]
+tags: [monad, list type]     # TAG names should always be lowercase
+description: list如何成为一个monad？它为什么需要是monad？
+---
+
+
 ## monad学习：list是一个monad吗
 
 Monad的基本元素
