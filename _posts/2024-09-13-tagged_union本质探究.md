@@ -84,4 +84,4 @@ $$
 [Tagged Union - wikipedia](https://en.wikipedia.org/wiki/Tagged_union)
 [CMU Course Note](https://www.cs.cmu.edu/~fp/courses/15814-f18/lectures/06-sums.pdf#page=6.65)
 
-*<p align="right">Completed on: 9/20</p>
+*<p align="right">Completed on: 9/20</p>*
