@@ -28,6 +28,15 @@ let x = SomeThing
 
 要证明一个全称语句$\forall x \in X, P(x)$为真，就需要从X中的任意一个元素x开始，证明其满足P。需要注意除了假定x是X的元素之外不能再给其设定额外的性质。
 
+Example:
+
+```
+let aux x : Lemma (p x) =
+    // proof of `p x`
+in
+forall_intro aux // and now we have `forall x. p x`
+```
+
 ### $\forall$ - Elimination
 
 假设已经知道$\forall x \in X, P(x)$为真，那么对任意$x \in X$，都有$P(x)$为真。
